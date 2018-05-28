@@ -12,6 +12,7 @@ module.exports = function(grunt) {
 	try {
 		config = JSON.parse(require('fs').readFileSync('./config.json', 'utf8'));
 	} catch (err) {
+		console.warn(err);
 		console.warn('Config file not found, see README.md if compliling for PhoneGap or Itch');
 		// Use a dummy config object so desktop building doesn't fail.
 		config = {

@@ -1,17 +1,17 @@
 {
-  "name": "HTMLE Example App",
-  "app_name": "HTMLE Example App",
+  "name": "Grimoire",
+  "app_name": "Grimoire",
   "version": "1.0.0",
   "main": "index.html",
   "window": {
-    "title": "YOUR_GAME_NAME",
+    "title": "Grimoire",
     "toolbar": false,
-    "fullscreen": true,
+    "fullscreen": false,
     "width": 1280,
     "height": 840,
     "position": "center",
-    "min_width": 1280,
-    "min_height": 640
+    "min_width": 166,
+    "min_height": 144
   },
   "chromium-args": "--in-process-gpu --disable-transparency",
   "devDependencies": {}
